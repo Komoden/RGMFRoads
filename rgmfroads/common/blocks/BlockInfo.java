@@ -6,13 +6,17 @@ package blocks;
  */
 public class BlockInfo {
 
-//	public static int ADVDROPPER_ID;
-//	public static final String ADVDROPPER_KEY = "advDropper";
-//	public static final int ADVDROPPER_DEFAULT = 2075;
-//	public static final String ADVDROPPER_UNLOCALIZED_NAME = "advDropper";
-//	public static final String ADVDROPPER_NAME = "Advanced Dropper";
-//	public static final String ADVDROPPER_TOP = "adv_dropper_top";
-//	public static final String ADVDROPPER_SIDE = "adv_dropper_side";
-//	public static final String ADVDROPPER_SIDE_ON = "adv_dropper_side_on";
-//	public static final String ADVDROPPER_BOTTOM = "adv_dropper_bottom";
+	public static int BLOCK_ROAD_ID;
+	public static final String BLOCK_ROAD_KEY = "blockRoad";
+	public static final int BLOCK_ROAD_DEFAULT = 2100;
+	public static final String BLOCK_ROAD_UNLOCALIZED_NAME = "BlockRoad";
+	public static final String BLOCK_ROAD_TEXTURE = "road_stone_";
+	public static final String[] BLOCK_ROAD_NAMES = {
+			"Dotted Stripe Side", "Left Double Stripe End", "Right Double Stripe End", "Solid Double Stripe",
+			"Shark Tooth", "Solid Corner Stripe", "Solid Side Stripe", "Solid Middle Stripe"
+	};
+	public final static String[] ROAD_SUBNAMES = {
+			"dotted_stripe_side", "double_stripe_middle", "left_double_stripe_end", "right_double_stripe_end",
+			"shark_tooth", "solid_stripe_corner", "solid_stripe_middle", "solid_stripe_side"
+	};
 }

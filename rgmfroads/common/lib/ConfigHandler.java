@@ -1,5 +1,6 @@
 package lib;
 
+import blocks.BlockInfo;
 import net.minecraftforge.common.Configuration;
 
 import java.io.File;
@@ -17,7 +18,7 @@ public class ConfigHandler {
 		// Items
 
 		// Blocks
-
+		BlockInfo.BLOCK_ROAD_ID = config.getBlock(BlockInfo.BLOCK_ROAD_KEY, BlockInfo.BLOCK_ROAD_DEFAULT).getInt();
 		config.save();
 	}
 }
